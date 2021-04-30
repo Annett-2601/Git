@@ -3,7 +3,7 @@
 
 1) git config --global user.name "имя в Git hab"
 2) git config --global user.email "email в Git hab"
-3) git version- проверка, что данные внесены
+3) git version- посмотреть версию
 
 
 Создать Shh key
@@ -67,10 +67,10 @@ git pull - загрузка изменений на локальный репозиторий.
 
 Работа с ветками
 
-1) git checkout -b название_ветки - создать ветку
+1) git checkout -b название_ветки - создать ветку и перейти в нее
 	git checkout -b second
 
-2) git название-ветки -переход в эту ветку.
+2) git название-ветки -посмотреть все бранчи
 	git branch
 
 3) git push -u origin название_ветки  - ветка, которую будем коммитить
